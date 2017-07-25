@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             cachedThreadpool.execute(new Runnable() {
                 @Override
                 public void run() {
-                    Log.e("彭竟，彭竟，我爱你，就像老鼠爱大米", String.valueOf(index));
+                    Log.e("老鼠爱大米", String.valueOf(index));
                 }
             });
         }
